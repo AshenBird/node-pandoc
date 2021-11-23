@@ -1,0 +1,26 @@
+{
+  "name": "@mcswift/pandoc",
+  "version": "0.0.2",
+  "description": "a node wrap for pandoc",
+  "main": "index.js",
+  "type": "module",
+  "pandoc": {
+    "version": "2.16.2"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshenBird/node-pandoc.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AshenBird/node-pandoc/issues"
+  },
+  "homepage": "https://github.com/AshenBird/node-pandoc#readme",
+  "dependencies": {
+    "esbuild": "^0.13.15",
+    "execa": "^5.1.1"
+  }
+}
